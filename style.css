@@ -101,7 +101,7 @@ img {
     background-color: #F2F2CD;
   }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:1024px){
   #lezioni .row>.left,
   #lezioni .row>.right {
     width: 100%;
