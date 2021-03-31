@@ -101,3 +101,32 @@ img {
     background-color: #F2F2CD;
   }
 }
+@media screen and (max-width:768px){
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: none;
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+  }
+
+  .row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+  }
+  img {
+    height: 100px;
+  }
+  #lezioni{
+    background-color: pink;
+  }
+  #why{
+    background-color: pink;
+  }
+}
